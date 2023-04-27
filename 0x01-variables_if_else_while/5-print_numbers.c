@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
-  *main -prints all numbers of base 10
-  *return -Always 0 (success)
+  *main - Prints all numbers of base 10
+  *Return: Always 0 (success)
   */
 int main(void)
 {
