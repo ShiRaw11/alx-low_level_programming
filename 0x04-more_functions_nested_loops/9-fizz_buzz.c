@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
-  *main - fizz-Buzz test
-  *return: Always 0
-*/
+  * main - prints a fizzbuzz program.
+  *
+  *Return: Always 0 (Success)
+  */
 int main(void)
 {
 	int i;
