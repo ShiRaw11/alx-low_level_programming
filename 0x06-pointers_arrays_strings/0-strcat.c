@@ -4,7 +4,7 @@
   *_strcat - appends the src string to the dest string
   *@dest: string
   *@src: string to be concatenated
-  *return:  pointer to the resulting string dest
+  *Return:  pointer to the resulting string dest
   */
 
 char *_strcat(char *dest, char *src)
@@ -15,19 +15,19 @@ char *_strcat(char *dest, char *src)
 	s = 0;
 
 
-	while (*(dest + d) != '\0')
+	while (dest[d] != '\0')
 	{
-		d++
+		d++;
 	}
 
-	while (*(src + s) != '\0' && d < 97)
+	while (src[s] != '\0')
 	{
-		*(dest + d) = *(src + s);
+		dest[d]= src[s];
 		d++;
 		s++;
 
 	}
-	*(dest + d) = '\0';
+	dest[d] = '\0';
 
 
 	return (dest);
